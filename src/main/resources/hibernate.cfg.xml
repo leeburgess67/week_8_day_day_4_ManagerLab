@@ -15,5 +15,6 @@
         <mapping class = "models.Manager"/>
         <mapping class = "models.Administrator"/>
         <mapping class = "models.Department"/>
+        <mapping class = "models.Product"/>
     </session-factory>
 </hibernate-configuration>
