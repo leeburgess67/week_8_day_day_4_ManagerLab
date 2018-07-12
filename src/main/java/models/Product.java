@@ -20,6 +20,7 @@ public class Product {
     public Product(String description, double price, Department department){
         this.description = description;
         this.price = price;
+        this.department = department;
     }
 
     @Id

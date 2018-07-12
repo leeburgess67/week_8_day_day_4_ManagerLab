@@ -15,7 +15,7 @@ public class Department {
 
     public Department(){}
 
-    public Department(String title, Manager manager, List<Product> products){
+    public Department(String title, Manager manager){
         this.title = title;
         this.manager = manager;
         this.products = new ArrayList<Product>();
